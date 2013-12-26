@@ -63,32 +63,7 @@
                 <a class="brand" href="index.html">
                   <img src="image/logo.png" alt="logo" />
                 </a>
-                <div class="navbar hor-menu hidden-phone hidden-tablet">
-
-                  <div class="navbar-inner">
-
-                    <ul class="nav">
-
-                      <li>
-
-                        <a href="index.html">
-
-                        &nbsp;首页 &nbsp;
-
-                        <span class="selected"></span>
-
-                        </a>
-
-                      </li>
-                     
-                      <li class="active">
-                         <a href="user_list.html">系统管理
-                           <span class="selected"></span>
-                         </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                
                 <ul class="nav pull-right">
                 <!-- BEGIN USER LOGIN DROPDOWN -->
 
@@ -129,6 +104,25 @@
                     <div class="sidebar-toggler hidden-phone"></div>
                     <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
                 </li>
+                <li>
+                    <a href="index.html">
+                        <i class="icon-home"></i> 
+                        <span class="title">我的首页</span>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-cogs"></i> 
+                        <span class="title">内容管理</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                          <a href="#">内容发布</a>
+                        </li>
+                    </ul>
+                </li>
                 <li class="start active">
                     <a href="javascript:;">
                         <i class="icon-cogs"></i> 
@@ -151,6 +145,25 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-bar-chart"></i> 
+                        <span class="title">分析报表</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                          <a href="#">客户信息查询</a>
+                        </li>
+                        <li >
+                          <a href="">客户分析</a>
+                        </li>
+                        <li >
+                          <a href="">客户维护</a>
+                        </li>
+                    </ul>
+                </li>
+                
                 
             </ul>
         </div>
@@ -174,12 +187,15 @@
 
                               <i class="icon-home"></i>
 
-                              <a href="user_list.html">系统管理</a> 
+                              <a href="index.html">首页</a> 
 
                               <i class="icon-angle-right"></i>
 
                             </li>
-
+                            <li>
+                              <a href="user_list.html">系统管理</a>
+                              <i class="icon-angle-right"></i>
+                            </li>
                             <li>
                               <a href="user_list.html">用户管理</a>
                               <i class="icon-angle-right"></i>
@@ -196,7 +212,7 @@
 
                 <div class="row-fluid">
                     <div class="span12">
-                        <div class="portlet box blue">
+                        <div class="portlet box grey">
 
                           <div class="portlet-title">
 
@@ -490,7 +506,7 @@
 
                                   <div class="form-actions">
 
-                                    <button type="submit" class="btn blue"><i class="icon-ok"></i>提交</button>
+                                    <button type="submit" class="btn green"><i class="icon-ok"></i>提交</button>
 
                                     <button type="button" class="btn">取消</button>
 
@@ -589,7 +605,9 @@
 
   <!-- END JAVASCRIPTS -->
 
-<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+<script type="text/javascript">  
+// var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+</script>
   
 </body>
 </html>
